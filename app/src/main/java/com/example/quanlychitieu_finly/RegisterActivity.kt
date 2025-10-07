@@ -187,6 +187,7 @@ class RegisterActivity : AppCompatActivity() {
         mAuth = FirebaseAuth.getInstance()
 
         // Ánh xạ view
+        
         edtUsername = findViewById(R.id.edtUsername)
         edtEmail = findViewById(R.id.edtEmail)
         edtPassword = findViewById(R.id.edtPassword)
