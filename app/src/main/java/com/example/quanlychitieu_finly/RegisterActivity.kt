@@ -235,6 +235,7 @@ class RegisterActivity : AppCompatActivity() {
                 return@setOnClickListener
             }
 
+
             // Đăng ký tài khoản Firebase
             mAuth.createUserWithEmailAndPassword(email, password)
                 .addOnCompleteListener(this) { task ->
